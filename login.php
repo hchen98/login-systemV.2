@@ -1,4 +1,4 @@
-<?php require_once 'controllers/authController.php' ?>
+<?php require_once 'controllers/authController.php'; ?>
 
 <!DOCTYPE html>
 <html>
@@ -28,8 +28,8 @@
                 <?php endif; ?>
 
                 <div class="form-group">
-                    <label for="username">Username or Email</label>
-                    <input type="text" name="username" value="<?php echo $username; ?>"
+                    <label for="username">Email</label>
+                    <input type="text" name="email" value="<?php echo $email; ?>"
                            class="form-control form-control-lg">
                 </div>
 

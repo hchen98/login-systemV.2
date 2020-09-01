@@ -4,12 +4,12 @@ require_once 'controllers/authController.php';
 
 if(isset($_GET['token'])){
     $token = $_GET['token'];
-    verifyUser($token);
+    signup_token_verify($token);
 }
 
 if(isset($_GET['password-token'])){
-    $passwordToken = $_GET['password-token'];
-    resetPassword($passwordToken);
+  $passwordToken = $_GET['password-token'];
+  resetPassword($passwordToken);
 }
 
 if (!isset($_SESSION['id']) && empty($_SESSION['id'])) {

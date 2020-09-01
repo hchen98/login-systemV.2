@@ -1,8 +1,9 @@
 # Login System (V.2)
 A complete PHP login system integrate with PhpMyAdmin and with various email APIs such as PHPMailer, SocketLabs, Mailer, and Laravel Swiftmailer
 <br><br>
-<b>Note</b>: PHPMailer and SocketLabs work fine on GoDaddy server, but not Laravel Swiftmailer
+<b>Note</b>: PHPMailer and SocketLabs work fine on GoDaddy server, but not Laravel Swiftmailer<br>
 
+* Change log: <a href="CHANGELOG.md">Here</a>
 
 ## Get start
 - (Choose the one you want to use) 
