@@ -11,3 +11,4 @@ This is a change log page.
      a. All SQL query func to prepare statement in order to prevent SQL injection.<br>
      b. Some bug fixing.<br>
      c. Remove unnecessary code.<br>
+     d. Brand-new DB structure.<br>
